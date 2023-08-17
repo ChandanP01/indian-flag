@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #c2f7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+    height: 369px;
+    background: #fff;
+}
+
+#top,
+#middle,
+#bottom {
+    height: 123px;
+}
+
+#top {
+    background: orange;
+}
+
+#middle {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#bottom {
+    background: green;
+}
+
+#wheel {
+    height: 123px;
+    width: 120px;
+    outline: 2px solid darkblue;
+    border-radius: 50%;
+}
+
+.line {
+    position: absolute;
+    height: 123px;
+    width: 1.5px;
+    background-color: darkblue;
+    left: 50%;
+}
+.line:nth-child(1){
+    transform: rotate(15deg);
+}
+.line:nth-child(2){
+    transform: rotate(30deg);
+}
+.line:nth-child(3){
+    transform: rotate(45deg);
+}
+.line:nth-child(4){
+    transform: rotate(60deg);
+}
+.line:nth-child(5){
+    transform: rotate(75deg);
+}
+.line:nth-child(6){
+    transform: rotate(90deg);
+}
+.line:nth-child(7){
+    transform: rotate(105deg);
+}
+.line:nth-child(8){
+    transform: rotate(120deg);
+}
+.line:nth-child(9){
+    transform: rotate(135deg);
+}
+.line:nth-child(10){
+    transform: rotate(150deg);
+}
+.line:nth-child(11){
+    transform: rotate(165deg);
+}
+.line:nth-child(12){
+    transform: rotate(180deg);
+}
